@@ -15,7 +15,7 @@ Git Account Manager is a command-line tool designed to simplify the management o
 
 ## Installation
 
-### Prerequisites
+### Pre Requisites
 - Zsh shell
 - Git
 - SSH client
@@ -74,7 +74,6 @@ git-account list
 ```bash
 git-account remove
 ```
-Follow the prompts to select and remove an account.
 
 ### Uninstall Git Account Manager
 ```bash
