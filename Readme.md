@@ -25,6 +25,15 @@ Git Account Manager is a command-line tool designed to simplify the management o
 
 #### Method 1: Direct Installation
 ```bash
+# Download the script
+curl -o /usr/local/bin/git-account https://raw.githubusercontent.com/kartik-dhawan-dev/git-account-manager/main/git-account.sh
+
+# Make it executable
+chmod +x /usr/local/bin/git-account
+```
+
+#### Method 2: Manual Setup
+```bash
 # Clone the repository
 git clone https://github.com/kartik-dhawan-dev/git-account-manager.git
 
@@ -38,14 +47,6 @@ chmod +x git-account.sh
 mv git-account.sh /usr/local/bin/git-account
 ```
 
-#### Method 2: Manual Setup
-```bash
-# Download the script
-curl -o /usr/local/bin/git-account https://raw.githubusercontent.com/kartik-dhawan-dev/git-account-manager/main/git-account.sh
-
-# Make it executable
-chmod +x /usr/local/bin/git-account
-```
 
 ## Usage
 
